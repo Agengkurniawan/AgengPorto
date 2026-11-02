@@ -1,0 +1,369 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#07080d" />
+    <meta name="description" content="Portfolio Ageng Kurniawan — Frontend Web Developer & UI/UX enthusiast asal Surabaya. Yuk, bikin sesuatu yang keren bareng." />
+    <title>Ageng Kurniawan — Frontend Developer yang Suka Bikin Web Hidup</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Lewati ke konten</a>
+    <div class="progress" aria-hidden="true"></div>
+    <div class="cursor-glow" aria-hidden="true"></div>
+    <div class="blob b1" aria-hidden="true"></div>
+    <div class="blob b2" aria-hidden="true"></div>
+    <div class="blob b3" aria-hidden="true"></div>
+
+    <header class="site-header" id="top">
+      <nav class="nav container" aria-label="Navigasi utama">
+        <a class="brand" href="#top" aria-label="Beranda Ageng Kurniawan">AGENG KURNIAWAN<span>.</span></a>
+        <button class="menu-toggle" aria-label="Buka menu navigasi" aria-expanded="false" aria-controls="nav-links"><span></span><span></span></button>
+        <div class="nav-links" id="nav-links"><a href="#projects">Karya</a><a href="#about">Tentang</a><a href="#journey">Jejak</a><a href="#contact">Kontak</a></div>
+        <a class="nav-cta" href="#contact">Ngobrol yuk 👋</a>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <section class="hero container" aria-labelledby="hero-title">
+        <div>
+          <p class="pill"><span class="dot"></span> Lagi open buat magang &amp; kerja</p>
+          <h1 id="hero-title">
+            <span class="line"><span>Bikin web</span></span>
+            <span class="line"><span class="grad">yang bikin</span></span>
+            <span class="line"><span>betah. ✦</span></span>
+          </h1>
+          <p class="role-line">Halo, aku Ageng — <span class="typed"></span><span class="caret"></span></p>
+          <p class="hero-desc">Mahasiswa D4 Manajemen Informatika <strong>Universitas Negeri Surabaya</strong> yang jatuh cinta sama dunia frontend. Aku suka mengubah desain jadi antarmuka yang rapi, responsif, dan enak banget dipakai.</p>
+          <div class="hero-actions">
+            <a class="button button-primary magnetic" href="#projects">Intip karyaku <i class="fa-solid fa-arrow-down"></i></a>
+            <a class="button button-ghost magnetic" href="#contact">Kerja bareng <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <span class="sticker s1">&lt;/Frontend&gt;</span>
+          <span class="sticker s2">Laravel ❤</span>
+          <span class="sticker s3">UI/UX ✦</span>
+          <div class="photo-card"><img src="assets/img/agekurniawan.jpg" alt="Potret Ageng Kurniawan" /></div>
+          <div class="spin-badge" aria-hidden="true">
+            <svg viewBox="0 0 100 100">
+              <defs><path id="c" d="M50,50 m-38,0 a38,38 0 1,1 76,0 a38,38 0 1,1 -76,0" /></defs>
+              <text><textPath href="#c">SURABAYA • OPEN TO WORK •</textPath></text>
+            </svg>
+            <i class="fa-solid fa-arrow-down"></i>
+          </div>
+        </div>
+        <p class="scroll-hint"><i class="fa-solid fa-arrow-down"></i> Scroll</p>
+      </section>
+
+      <div class="marquee" aria-hidden="true">
+        <div class="marquee-track">
+          <span>HTML</span><span>CSS</span><span>SCSS</span><span>JavaScript</span><span>Laravel</span><span>Bootstrap</span><span>Figma</span><span>MySQL</span> <span>HTML</span><span>CSS</span><span>SCSS</span><span>JavaScript</span
+          ><span>Laravel</span><span>Bootstrap</span><span>Figma</span><span>MySQL</span>
+        </div>
+      </div>
+
+      <section class="container stats" aria-label="Sekilas angka">
+        <div class="stat reveal" style="--i: 0"><b data-count="4" data-suffix="+">0</b><span>Proyek yang dipamerkan</span></div>
+        <div class="stat reveal" style="--i: 1"><b data-count="3">0</b><span>Pengalaman kerja &amp; magang</span></div>
+        <div class="stat reveal" style="--i: 2"><b data-count="5" data-suffix="+">0</b><span>Halaman backoffice diselesaikan</span></div>
+        <div class="stat reveal" style="--i: 3"><b data-count="2022">0</b><span>Mulai kuliah di UNESA</span></div>
+      </section>
+
+      <section class="section" id="projects" aria-labelledby="projects-title">
+        <div class="container">
+          <div class="sec-head reveal">
+            <span class="tag">✦ Karya pilihan</span>
+            <h2 id="projects-title">Hasil kerja yang <span class="grad">nggak malu-maluin.</span></h2>
+          </div>
+          <div class="project-list">
+            <article class="project-card reveal">
+              <button class="project-image" data-dialog="project-pabrik" aria-label="Lihat detail proyek Backoffice Pabrik Baut">
+                <img src="assets/img/Login.png" alt="Login Backoffice Pabrik Baut" /><span class="image-action">Lihat detail ↗</span>
+              </button>
+              <div class="project-content">
+                <span class="num">01 — FRONTEND WEB</span>
+                <h3>Backoffice Pabrik Baut</h3>
+                <p>Dashboard admin buat ngatur penjualan, pembelian, dan produk dalam satu tempat. Aku garap antarmukanya biar alur kerja operasional jadi lebih lancar dan datanya gampang dibaca.</p>
+                <div class="chips"><span>Laravel</span><span>Blade MVC</span><span>SCSS</span></div>
+                <button class="text-link" data-dialog="project-pabrik">Baca cerita proyeknya <i class="fa-solid fa-arrow-right"></i></button>
+              </div>
+            </article>
+            <article class="project-card reveal">
+              <button class="project-image" data-dialog="project-3s" aria-label="Lihat detail proyek Backoffice Web 3S">
+                <img src="assets/img/Login3s.png" alt="Login Backoffice Web 3S" /><span class="image-action">Lihat detail ↗</span>
+              </button>
+              <div class="project-content">
+                <span class="num">02 — FRONTEND WEB</span>
+                <h3>Backoffice Web 3S</h3>
+                <p>Sistem HR lengkap: onboarding, kontrak &amp; PKWT, status resign, sampai notifikasi surat peringatan. Di sini aku ngubah desain UI/UX jadi halaman Laravel yang siap pakai.</p>
+                <div class="chips"><span>Laravel</span><span>Blade MVC</span><span>SASS</span></div>
+                <button class="text-link" data-dialog="project-3s">Baca cerita proyeknya <i class="fa-solid fa-arrow-right"></i></button>
+              </div>
+            </article>
+            <article class="project-card reveal">
+              <a class="project-image" href="https://pulsain-index.vercel.app/" target="_blank" rel="noopener noreferrer" aria-label="Kunjungi demo PulsaIn"
+                ><img src="assets/img/LandingPage.png" alt="Landing page PulsaIn" /><span class="image-action">Buka demo ↗</span></a
+              >
+              <div class="project-content">
+                <span class="num">03 — FRONTEND LANDING PAGE</span>
+                <h3>Landing Page PulsaIn</h3>
+                <p>Landing page responsif buat platform konversi pulsa. Isinya pengenalan layanan, pilihan provider, dan alur transaksi yang simpel — langsung bisa dicoba live.</p>
+                <div class="chips"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+                <a class="text-link" href="https://pulsain-index.vercel.app/" target="_blank" rel="noopener noreferrer">Coba demonya <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              </div>
+            </article>
+            <article class="project-card reveal">
+              <button class="project-image" data-dialog="project-os-kacamata" aria-label="Lihat detail proyek OS Kacamata Ponorogo">
+                <img src="assets/img/OS1.png" alt="Tampilan sistem ERP OS Kacamata Ponorogo" /><span class="image-action">Lihat detail &nearr;</span>
+              </button>
+              <div class="project-content">
+                <span class="num">04 &mdash; WEBSITE ERP</span>
+                <h3>OS Kacamata Ponorogo</h3>
+                <p>Sistem ERP backoffice untuk membantu operasional OS Kacamata Ponorogo, mulai dari pencatatan barang masuk dan keluar hingga pengelolaan pengeluaran dana dalam satu sistem.</p>
+                <div class="chips"><span>ERP System</span><span>Backoffice</span><span>Manajemen Inventori</span></div>
+                <button class="text-link" data-dialog="project-os-kacamata">Baca cerita proyeknya <i class="fa-solid fa-arrow-right"></i></button>
+              </div>
+            </article>
+            <article class="project-card reveal">
+              <a class="project-image" href="https://hmmusicproduction.com" target="_blank" rel="noopener noreferrer" aria-label="Kunjungi website HM Music Production">
+                <img src="assets/img/hmmusic2.png" alt="Tampilan website HM Music Production" /><span class="image-action">Kunjungi website &nearr;</span>
+              </a>
+              <div class="project-content">
+                <span class="num">05 &mdash; WEBSITE E-COMMERCE</span>
+                <h3>HM Music Production</h3>
+                <p>Website jual Style Sampling Yamaha yang memudahkan pelanggan menemukan koleksi style untuk kebutuhan bermain keyboard.</p>
+                <div class="chips"><span>E-Commerce</span><span>Katalog Produk</span><span>Responsive Website</span></div>
+                <button class="text-link" data-dialog="project-hm-music">Baca cerita proyeknya <i class="fa-solid fa-arrow-right"></i></button>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <div class="marquee alt" aria-hidden="true">
+        <div class="marquee-track">
+          <span>Clean UI</span><span>Responsive</span><span>Detail-oriented</span><span>Fast learner</span><span>Team player</span> <span>Clean UI</span><span>Responsive</span><span>Detail-oriented</span><span>Fast learner</span
+          ><span>Team player</span>
+        </div>
+      </div>
+
+      <section class="section" id="about" aria-labelledby="about-title">
+        <div class="container about-split">
+          <div class="about-photo reveal"><img src="assets/img/fotoku1.jpg" alt="Ageng Kurniawan dalam foto santai" /></div>
+          <div class="about-text reveal">
+            <span class="tag">✦ Kenalan dulu</span>
+            <h2 id="about-title">Dari kode ke <span class="grad">pengalaman</span> yang terasa.</h2>
+            <p>Aku <strong>Ageng</strong>, mahasiswa D4 Manajemen Informatika di Universitas Negeri Surabaya. Aku tertarik banget sama pengembangan web, teknologi informasi, dan UI/UX design.</p>
+            <p>
+              Lewat proyek dan pengalaman kerja, aku terbiasa mengubah kebutuhan jadi antarmuka yang <strong>responsif, rapi, dan mudah dipakai</strong>. Aku senang belajar hal baru dan berkolaborasi buat nyelesaiin masalah teknis bareng
+              tim.
+            </p>
+            <div class="bento">
+              <div class="skill-box">
+                <h3><i class="fa-solid fa-code"></i> Web Dev</h3>
+                <div class="chips"><span>HTML</span><span>CSS</span><span>SCSS</span><span>JavaScript</span><span>Bootstrap</span><span>PHP</span><span>Laravel</span></div>
+              </div>
+              <div class="skill-box">
+                <h3><i class="fa-solid fa-database"></i> Database &amp; Tools</h3>
+                <div class="chips"><span>MySQL</span><span>Git</span><span>VS Code</span></div>
+              </div>
+              <div class="skill-box">
+                <h3><i class="fa-solid fa-pen-ruler"></i> UI/UX &amp; Design</h3>
+                <div class="chips"><span>Figma</span><span>Illustrator</span><span>Canva</span><span>Unity</span></div>
+              </div>
+              <div class="skill-box">
+                <h3><i class="fa-solid fa-file-word"></i> Microsoft Office</h3>
+                <div class="chips"><span>Word</span><span>Excel</span><span>PowerPoint</span></div>
+                <small>Pengolahan dokumen, data, dan presentasi.</small>
+              </div>
+              <div class="skill-box creative">
+                <h3><i class="fa-solid fa-photo-film"></i> Creative &amp; Audio</h3>
+                <div class="chips"><span>Adobe Premiere Pro</span><span>Adobe Photoshop</span><span>Studio One</span></div>
+                <small>Editing video, desain visual, dan pengolahan audio, termasuk music arranger.</small>
+              </div>
+              <div class="skill-box wide">
+                <h3><i class="fa-solid fa-rocket"></i> Lagi di-level up</h3>
+                <div class="chips"><span>Flutter</span><span>Dart</span><span>Python</span><span>React Native</span><span>Arduino</span></div>
+                <small>Masih tahap dasar, tapi terus aku asah tiap hari.</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="journey" aria-labelledby="journey-title">
+        <div class="container">
+          <div class="sec-head reveal">
+            <span class="tag">✦ Jejak langkah</span>
+            <h2 id="journey-title">Belajar paling cepat <span class="grad">lewat praktik langsung.</span></h2>
+          </div>
+          <h3 class="sub-title reveal">💼 Pengalaman</h3>
+          <div class="timeline">
+            <div class="tl-item reveal">
+              <p class="tl-date">Feb 2025 — Jul 2025</p>
+              <div>
+                <h3>Frontend Intern <span>· PT. OrdoApps</span></h3>
+                <p>Membangun tampilan website pakai HTML, SCSS, dan Bootstrap di dalam arsitektur MVC Laravel.</p>
+              </div>
+            </div>
+            <div class="tl-item reveal">
+              <p class="tl-date">Sep 2024 — Jan 2025</p>
+              <div>
+                <h3>Mixed Reality <span>· PT. Raja Teknik Solusi</span></h3>
+                <p>Mendesain UI landing page UMKM lalu mengimplementasikannya ke HTML statis.</p>
+              </div>
+            </div>
+          </div>
+          <h3 class="sub-title reveal">🎓 Pendidikan</h3>
+          <div class="timeline">
+            <div class="tl-item reveal">
+              <p class="tl-date">2022 — Sekarang</p>
+              <div>
+                <h3>Universitas Negeri Surabaya</h3>
+                <p>D4 Manajemen Informatika, fokus ke pengembangan Frontend Web dengan Laravel.</p>
+              </div>
+            </div>
+            <div class="tl-item reveal">
+              <p class="tl-date">2018 — 2021</p>
+              <div>
+                <h3>SMA Negeri 1 Ponorogo</h3>
+                <p>Jurusan IPS, aktif ikut lomba non-akademik tingkat kabupaten.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="contact" aria-labelledby="contact-title">
+        <div class="container">
+          <div class="cta-banner reveal">
+            <h2 id="contact-title">Punya ide? Yuk, wujudkan bareng!</h2>
+            <p>Buat peluang kerja, kolaborasi, atau proyek digital — kirim aja pesannya, aku bakal bales secepatnya.</p>
+            <a class="big-mail magnetic" href="mailto:agengkurniawannn@gmail.com">agengkurniawannn@gmail.com <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+          <div class="contact-grid">
+            <div class="contact-copy reveal">
+              <p>Lebih nyaman lewat chat atau telepon? Boleh banget. Aku juga aktif di sosial media di bawah ini.</p>
+              <div class="contact-details">
+                <a href="tel:+6282112220904"><i class="fa-solid fa-phone"></i>+62 821-1222-0904</a>
+                <p><i class="fa-solid fa-location-dot"></i>Ketintang, Surabaya, Jawa Timur</p>
+              </div>
+              <div class="social-links">
+                <a href="https://www.linkedin.com/in/ageng-kurniawan-642b41310/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a
+                ><a href="https://www.instagram.com/agengkurniawan_?igsh=bDR0Z3plODZramUz" target="_blank" rel="noopener noreferrer">Instagram ↗</a
+                ><a href="https://www.facebook.com/AgengKurniawannn/?locale=id_ID" target="_blank" rel="noopener noreferrer">Facebook ↗</a>
+              </div>
+            </div>
+            <form class="contact-form reveal" action="https://formspree.io/f/mkgbnkzd" method="POST">
+              <label>Nama<input type="text" name="nama" placeholder="Siapa nih?" required /></label>
+              <label>Email<input type="email" name="email" placeholder="email@kamu.com" required /></label>
+              <label>Subjek<input type="text" name="subject" placeholder="Mau ngobrolin apa?" required /></label>
+              <label>Pesan<textarea name="deskripsi" rows="4" placeholder="Ceritain ide atau kebutuhanmu di sini..." required></textarea></label>
+              <button class="button button-primary" type="submit">Kirim pesan <i class="fa-solid fa-paper-plane"></i></button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <a class="brand" href="#top">AGENG<span>.</span></a>
+        <p>© 2026 Ageng Kurniawan. Dibuat dengan ☕ dan banyak ngoding.</p>
+        <a href="#top">Balik ke atas <i class="fa-solid fa-arrow-up"></i></a>
+      </div>
+    </footer>
+
+    <dialog class="project-dialog" id="project-pabrik">
+      <div class="dialog-header">
+        <p>Proyek 01 / Web application</p>
+        <button class="dialog-close" aria-label="Tutup detail proyek"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+      <div class="dialog-grid">
+        <div class="dialog-gallery">
+          <img src="assets/img/Login.png" alt="Login Backoffice Pabrik Baut" /><img src="assets/img/DataMasterr.png" alt="Data master Backoffice Pabrik Baut" /><img
+            src="assets/img/DetailPenjualan.png"
+            alt="Detail penjualan Backoffice Pabrik Baut"
+          />
+        </div>
+        <div>
+          <h2>Backoffice Pabrik Baut</h2>
+          <p>Backoffice yang membantu administrasi pabrik baut: pengelolaan data penjualan, pembelian, dan produk.</p>
+          <h3>Kontribusiku</h3>
+          <p>Mengerjakan antarmuka pengguna agar alur data operasional jalan mulus dan informasi tampil lebih terstruktur.</p>
+          <div class="chips"><span>Laravel</span><span>Blade MVC</span><span>SCSS</span></div>
+        </div>
+      </div>
+    </dialog>
+    <dialog class="project-dialog" id="project-3s">
+      <div class="dialog-header">
+        <p>Proyek 02 / Frontend internship</p>
+        <button class="dialog-close" aria-label="Tutup detail proyek"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+      <div class="dialog-grid">
+        <div class="dialog-gallery">
+          <img src="assets/img/Login3s.png" alt="Login Backoffice Web 3S" /><img src="assets/img/InternalEmployee.png" alt="Data karyawan internal Web 3S" /><img src="assets/img/OnBoarding.png" alt="Onboarding Web 3S" />
+        </div>
+        <div>
+          <h2>Backoffice Web 3S</h2>
+          <p>Sistem backoffice untuk tim HR: onboarding, kontrak &amp; PKWT, status resign, dan surat peringatan.</p>
+          <h3>Peranku</h3>
+          <p>Sebagai Frontend Developer magang, aku men-slicing desain UI/UX ke Blade Laravel, menulis styling dengan SASS, dan kolaborasi bareng tim backend, UI/UX, dan QA.</p>
+          <h3>Hasilnya</h3>
+          <p>Lebih dari lima halaman backoffice selesai untuk mendukung pengelolaan data dan administrasi karyawan.</p>
+          <div class="chips"><span>Laravel</span><span>Blade MVC</span><span>SASS</span></div>
+        </div>
+      </div>
+    </dialog>
+    <dialog class="project-dialog" id="project-hm-music">
+      <div class="dialog-header">
+        <p>Proyek 05 / E-commerce</p>
+        <button class="dialog-close" aria-label="Tutup detail proyek"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+      <div class="dialog-grid">
+        <div class="dialog-gallery">
+          <img src="assets/img/hmmusic2.png" alt="Tampilan utama HM Music Production" /><img src="assets/img/hmmusic1.png" alt="Katalog Style Sampling Yamaha HM Music Production" /><img
+            src="assets/img/hmmusic3.png"
+            alt="Tampilan website HM Music Production"
+          />
+        </div>
+        <div>
+          <h2>HM Music Production</h2>
+          <p>Website jual beli yang berfokus pada Style Sampling Yamaha untuk membantu pelanggan menemukan koleksi style yang sesuai dengan kebutuhan bermain keyboard.</p>
+          <h3>Kontribusiku</h3>
+          <p>Merancang dan membangun pengalaman website yang membuat katalog produk mudah dieksplorasi serta proses pemesanan terasa jelas dan praktis.</p>
+          <div class="chips"><span>E-Commerce</span><span>Katalog Produk</span><span>Responsive Website</span></div>
+          <a class="text-link" href="https://hmmusicproduction.com" target="_blank" rel="noopener noreferrer">Kunjungi website <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+    </dialog>
+    <dialog class="project-dialog" id="project-os-kacamata">
+      <div class="dialog-header">
+        <p>Proyek 04 / Website ERP</p>
+        <button class="dialog-close" aria-label="Tutup detail proyek"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+      <div class="dialog-grid">
+        <div class="dialog-gallery">
+          <img src="assets/img/OS1.png" alt="Dashboard sistem ERP OS Kacamata Ponorogo" />
+          <img src="assets/img/OS2.png" alt="Fitur sistem ERP OS Kacamata Ponorogo" />
+          <img src="assets/img/OS3.png" alt="Pengelolaan data pada ERP OS Kacamata Ponorogo" />
+          <img src="assets/img/OS4.png" alt="Laporan sistem ERP OS Kacamata Ponorogo" />
+        </div>
+        <div>
+          <h2>OS Kacamata Ponorogo</h2>
+          <p>Website ERP backoffice untuk mendukung operasional OS Kacamata Ponorogo dalam mengelola aktivitas bisnis sehari-hari.</p>
+          <h3>Fitur utama</h3>
+          <p>Mencatat barang masuk dan keluar, mengelola pengeluaran dana, serta menyatukan proses administrasi dan operasional dalam satu sistem.</p>
+          <div class="chips"><span>ERP System</span><span>Backoffice</span><span>Manajemen Inventori</span></div>
+        </div>
+      </div>
+    </dialog>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
